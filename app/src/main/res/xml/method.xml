@@ -1,0 +1,17 @@
+<input-method 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:icon="@drawable/icon_old_1" 
+	android:settingsActivity="com.github.dapitkeyboard.MainActivity" 
+	android:supportsSwitchingToNextInputMethod="true">
+
+    <subtype 
+		android:imeSubtypeLocale="en_ID" 
+		android:imeSubtypeMode="Keyboard" 
+		android:label="@string/subtype_en_US" />
+		
+    <subtype 
+		android:imeSubtypeLocale="fr_FR" 
+		android:imeSubtypeMode="Keyboard"
+		android:label="@string/subtype_fr_FR" />
+
+</input-method>
